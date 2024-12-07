@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#tablero{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 70vh;
+    height: 70vh;
+}
+
+.divsTablero{
+    border-style: solid;
+    border-color: black;
+}
+
+@media (max-width:480px){
+    #tablero{
+        width: 98vw;
+        height: 98vw;
+        }
+}
+#marcaDeAgua{
+    color: hsl(271, 100%, 50%);
+    font-weight: bold;
+    margin-left: 10px;
+}
+#logoInicial{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color:#8800ff;
+    color: white;
+    padding: 1vh;
+    margin-top: 1vh;
+    position: relative;
+    font-weight: bold;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    min-width: 70px;
+    width: 25vw;
+}
+
+#final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #8800ff;
+}
+#resultado{
+    margin:0 20vw;
+    color: white;
+}
+#divReglas{
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#reglas{
+    color: white;
+    margin: 0 10vw;
+}
+span{
+    color: #8800ff;
+}
