@@ -49,8 +49,8 @@ button{
     border-color: black;
     border-width: 3px;
     border-style: solid;
-    min-width: 70px;
-    width: 25vw;
+    min-width: 30vw;
+    width: 70px;
 }
 
 #final{
