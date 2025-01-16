@@ -2,6 +2,7 @@
 const palabra='Samuel Alejandro, 6 de diciembre del 2024'
 let palabraConParpadeo=''
 let letraIndividual=0
+const marcaDeAgua = document.getElementById('marcaDeAgua')
 function parpadeo(){
     palabraConParpadeo=palabraConParpadeo+palabra[letraIndividual]
     if (letraIndividual<palabra.length-1){
@@ -10,7 +11,7 @@ function parpadeo(){
     else{
         clearInterval(intervaloParpadeo)
     }
-    document.getElementById('marcaDeAgua').innerText=palabraConParpadeo
+    marcaDeAgua.innerText=palabraConParpadeo
 }
 const intervaloParpadeo=setInterval(parpadeo, 70)
 
