@@ -40,8 +40,7 @@ main{
     color: hsl(271, 100%, 50%);
     font-weight: bold;
     margin-left: 10px;
-    animation: cambioDeColor infinite 10s
-    align-self: flex-start;
+    animation: cambioDeColor infinite 10s;
 }
 
 @keyframes cambioDeColor{
