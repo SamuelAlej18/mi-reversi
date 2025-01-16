@@ -10,6 +10,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh
 }
 main{
     display: flex;
@@ -73,7 +74,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    flex-grow:1;
     background-color: #8800ff;
 }
 #resultado{
