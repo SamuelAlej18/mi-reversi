@@ -41,6 +41,7 @@ main{
     font-weight: bold;
     margin-left: 10px;
     animation: cambioDeColor infinite 10s
+    align-self: flex-start;
 }
 
 @keyframes cambioDeColor{
