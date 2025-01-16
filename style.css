@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
 }
-
+#textoOculto{
+    color: transparent;
+}
 body{
     display: flex;
     flex-direction: column;
