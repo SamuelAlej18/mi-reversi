@@ -32,6 +32,13 @@ main{
     color: hsl(271, 100%, 50%);
     font-weight: bold;
     margin-left: 10px;
+    animation: cambioDeColor infinite 10s
+}
+
+@keyframes cambioDeColor{
+0%{color: hsl(271, 100%, 50%);}
+50%{color: black;}
+0%{color: hsl(271, 100%, 50%);}
 }
 
 #logoInicial{
