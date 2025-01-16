@@ -1,5 +1,6 @@
 //texto a escribirse solo
 const palabra='Samuel Alejandro, 6 de diciembre del 2024'
+const textoOcultoMarcaDeAgua=document.getElementById('textoOculto')
 let palabraConParpadeo=''
 let letraIndividual=0
 const marcaDeAgua = document.getElementById('marcaDeAgua')
@@ -12,6 +13,7 @@ function parpadeo(){
         clearInterval(intervaloParpadeo)
     }
     marcaDeAgua.innerText=palabraConParpadeo
+    textoOcultoMarcaDeAgua.innerText = (textoOcultoMarcaDeAgua.innerText).substring(1)
 }
 const intervaloParpadeo=setInterval(parpadeo, 70)
 
